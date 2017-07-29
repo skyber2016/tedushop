@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -181,9 +182,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TedShop.Data\TedShop.Data.csproj">
+    <ProjectReference Include="..\TedShop.Data\TeduShop.Data.csproj">
       <Project>{314a24cf-a7d8-49cc-b171-480d4f35ed46}</Project>
-      <Name>TedShop.Data</Name>
+      <Name>TeduShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Common\TeduShop.Common.csproj">
       <Project>{e3df4c3a-2330-45db-919a-48732346ae5d}</Project>
